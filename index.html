@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav>
+        <ul id="my-nav-hamburger">
+            <li class="navicon"><button onclick="toggleNav()">&#9776;</button></li>
+        </ul> 
+        <ul id="my-nav" class="hide">
+          <li><a href="#" >Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+          
+        </ul>
+
+    </nav>  
+    <main>
+        <header class="section hero">
+		  <div class="container">
+            <div id="profileimgcontainer">
+                <img src="./src/foto.jpg" alt="">
+            </div>
+			<div class="hero-content">
+
+				<h1 class="title">
+				  Hola, <span>Soy Fernando Melo.</span>
+				  <strong>Y puedo diseñar el espacio de tus sueños</strong>
+				</h1>
+				<p>
+					Iquique - Santiago - Curicó <br>
+					Chile
+				</p>
+
+				<button>Contactame</button>
+
+			</div>
+		  </div>
+        </header>
+
+        <article class="section biography sm-center">
+            <div class="container is-short">
+                <div class="biography-title">
+                    <h1 class="title">Mi ideal</h1>
+                    <button>Catalogo</button>
+                </div>
+                <div>
+                    <p>Bienvenido a la casa de Fernando Melo, arquitecto apasionado y visionario. En nuestro estudio de arquitectura, transformamos tus ideas en proyectos habitables. Descubre cómo podemos hacer realidad tus sueños de diseño y construcción.</p>
+                </div>
+            </div>
+	    </article>
+
+        <article class="expertise section">
+		  <div class="container is-column">
+				<h1 class="title is-inverted">Algunos de nuestros servicios</h1>
+				<section class="expertise-item has-cards">
+					<div class="card">
+						<h1 class="title">Regularizaciones y tasaciones</h1>
+						<!-- <h2 class="subtitle">8 years experience</h2> -->
+						<p>Nuestro equipo de expertos en regularizaciones y tasaciones está aquí para ayudarte a resolver los desafíos de tu propiedad. Contamos con una amplia experiencia en permisos municipales y valoraciones precisas.</p>
+						
+					</div>
+					<div class="card">
+						<h1 class="title">Diseño y arquitectura</h1>
+						<!-- <h2 class="subtitle">8 years experience</h2> -->
+						<p>En el corazón de nuestra pasión por la arquitectura y el diseño, creamos espacios que inspiran y funcionan de manera excepcional. Desde el concepto inicial hasta los planos detallados, estamos comprometidos con la excelencia en el diseño arquitectónico.</p>
+					</div>
+					<div class="card">
+						<h1 class="title">Proyectos de construcción</h1>
+						<!-- <h2 class="subtitle">4 years experience</h2> -->
+						<p>La construcción es donde cobran vida los diseños y las ideas. Nuestro equipo de profesionales está listo para llevar a cabo tu proyecto. Gestionamos todos los aspectos de la construcción, desde la planificación y la logística hasta la ejecución.</p>
+						
+					</div>
+				</section>
+
+				<!-- <section class="expertise-item">
+					<h1 class="title is-inverted sm-center">Skills</h1>
+					<p class="is-inverted sm-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem similique, ducimus officia voluptatibus, labore quisquam, repellendus voluptates excepturi incidunt accusantium tempora at? Molestiae doloremque beatae maiores. Quod porro veniam quidem?</p>
+				</section>
+		
+				<section class="expertise-section">
+					<h1 class="title is-inverted sm-center">Frameworks & Software</h1>
+					<p class="is-inverted sm-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem similique, ducimus officia voluptatibus, labore quisquam, repellendus voluptates excepturi incidunt accusantium tempora at? Molestiae doloremque beatae maiores. Quod porro veniam quidem?</p>
+				</section> -->
+		  </div>
+
+        </article>
+
+        <!-- <article class="stack section">
+        <div class="container is-column">
+              <h1 class="title is-inverted sm-center">My Stack</h1>
+              <section class="expertise-item has-cards">
+                  <div class="card is-inverted">
+                      <img src="./src/MERN-logo.png" alt="">
+                  </div>
+              </section>
+
+              <section class="expertise-item">
+                  <h1 class="title is-inverted sm-center">Skills</h1>
+                  <p class="is-inverted sm-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem similique, ducimus officia voluptatibus, labore quisquam, repellendus voluptates excepturi incidunt accusantium tempora at? Molestiae doloremque beatae maiores. Quod porro veniam quidem?</p>
+              </section>
+      
+              <section class="expertise-section">
+                  <h1 class="title is-inverted sm-center">Frameworks & Software</h1>
+                  <p class="is-inverted sm-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem similique, ducimus officia voluptatibus, labore quisquam, repellendus voluptates excepturi incidunt accusantium tempora at? Molestiae doloremque beatae maiores. Quod porro veniam quidem?</p>
+              </section>
+        </div>
+
+        </article> -->
+        
+      <article class="contact section not-bottom">
+		<div class="container is-column is-short">
+			<h1 class="title sm-center">Contactame</h1>
+			<!-- <p class="is-inverted sm-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum eum ab accusantium. Dolorem eveniet ipsam, ea, consequatur sunt, rem voluptas ipsum atque quibusdam maxime enim voluptates.</p> -->
+			<!-- <div class="contact-container">
+				<div class="social">
+					<h1 class="title is-inverted sm-center">Follow me</h1>
+					<p class="is-inverted social">
+						<a href="#" target="_blank" rel="noreferrer noopener">
+							<img src="./src/GitHub_Logo.png">
+						</a>
+					</p>
+					<p class="is-inverted social">
+						<a href="https://instagram.com/glrodasz" target="_blank" rel="noreferrer noopener">
+							<img src="./assets/icons/instagram.svg">
+							</a>
+					</p>	
+					<p class="is-inverted social">
+						<a href="#" target="_blank" rel="noreferrer noopener">
+							<img src="./src/LI-Logo.png">
+							</a>
+							</p>
+				</div> -->
+				<div class="form-container">
+					<form>
+						<fieldset>
+							<label for="name">Nombre</label>
+							<input id="name" type="text" placeholder="Ingresa tu nombre" required>
+						</fieldset>
+						<fieldset>
+							<label for="email">Correo</label>
+							<input id="email" type="email" placeholder="Ingresa tu correo" required>
+						</fieldset>
+						<fieldset>
+							<label for="message">Mensaje</label>
+							<textarea id="message" placeholder="Ingresa tu mensaje" required></textarea>
+						</fieldset>
+						<button type="submit" class="is-block">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	  </article>
+      <footer class="main-footer">
+		  <p class="is-inverted">Lorem ipsum dolor sit, amet consectetur adipisicing!</p>
+	  </footer>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
